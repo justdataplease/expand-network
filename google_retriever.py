@@ -11,7 +11,7 @@ RESULTS = 100
 
 def check_pos(obj: list, pos: int, failcase: str = "") -> str:
     """
-    Check index in list, if not exists return failcase
+    Check index in list, if not exists return failcase.
     :param obj: list
     :param pos: list's index
     :param failcase: case of IndexError
