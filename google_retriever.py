@@ -94,6 +94,8 @@ def main():
         print(df.iloc[0])
         df.to_csv("profiles.csv", index=False, encoding="utf8")
 
+        print("Profiles retrieved successfully!")
+
 
 if __name__ == '__main__':
     main()
